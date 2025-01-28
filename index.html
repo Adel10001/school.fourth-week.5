@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبار قصير في بطاقة الأسبوع الرابع</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+            background-color: #f9f9f9;
+            margin: 20px;
+        }
+        .quiz-container {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            max-width: 600px;
+            margin: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .question {
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .options {
+            margin-bottom: 20px;
+            text-align: right;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .submit-btn {
+            display: block;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 60px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: auto;
+        }
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+        .result {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+        .correct p {
+            color: green;
+        }
+        .incorrect p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>اختبار قصير في بطاقة الأسبوع الرابع</h1>
+
+        <!-- السؤال الأول -->
+        <div class="question" id="q1-container">
+            <p>1. ما هو تعريف العنصر؟</p>
+            <div class="options">
+                <label><input type="radio" name="q1" value="c"> مادة نقية تتكون من نوع واحد من الدقائق</label>
+                <label><input type="radio" name="q1" value="b"> مادة غير نقية تتكون من خليط من العناصر</label>
+               	<label><input type="radio" name="q1" value="a"> مادة ناتجة عن اتحاد عنصرين أو أكثر</label>			
+							
+            </div>
+        </div>
+
+        <!-- السؤال الثاني -->
+        <div class="question" id="q2-container">
+            <p>2. أي حالة من حالات المادة يمكن أن يكون عليها العنصر؟</p>
+            <div class="options">
+                <label><input type="radio" name="q2" value="a"> صلبة فقط</label>
+                <label><input type="radio" name="q2" value="b"> صلبة أو سائلة أو غازية</label>
+                <label><input type="radio" name="q2" value="c"> غازية فقط</label>
+            </div>
+        </div>
+
+        <!-- السؤال الثالث -->
+        <div class="question" id="q3-container">
+            <p>3.كيف تختلف خصائص المركب عن خصائص العناصر المكونة له؟</p>
+            <div class="options">
+                <label><input type="radio" name="q3" value="a"> تتشابه مع خصائص العناصر المكونة</label>
+                <label><input type="radio" name="q3" value="b"> تكون خليطًا من خصائص العناصر المكونة</label>
+                <label><input type="radio" name="q3" value="c"> تكون مختلفة تمامًا عن خصائص العناصر المكونة له</label>
+            </div>
+        </div>
+
+        <!-- السؤال الرابع -->
+        <div class="question" id="q4-container">
+            <p>4. ما الفرق الأساسي بين المركب والمخلوط؟</p>
+            <div class="options">
+                <label><input type="radio" name="q4" value="a"> المركب يحتفظ بخصائص مكوناته، والمخلوط له خصائص جديدة</label>
+                <label><input type="radio" name="q4" value="b">  المخلوط يحتفظ بخصائص مكوناته، والمركب له خصائص جديدة</label>
+                <label><input type="radio" name="q4" value="c">  لا يوجد فرق بين المركب والمخلوط</label>
+            </div>
+        </div>
+
+        <!-- السؤال الخامس -->
+        <div class="question" id="q5-container">
+            <p>5. ما الخاصية الأساسية للعناصر مثل الحديد والنحاس؟</p>
+            <div class="options">
+                <label><input type="radio" name="q5" value="a"> تتكون من ذرتين مختلفتين</label>
+                <label><input type="radio" name="q5" value="b"> تتكون من خليط ذرات مختلفة</label>
+                <label><input type="radio" name="q5" value="c"> تتكون من نوع واحد من الذرات</label>
+            </div>
+        </div>
+		<!-- السؤال السادس -->
+        <div class="question" id="q6-container">
+            <p>6. إذا اتحد عنصر الهيدروجين مع عنصر الأكسجين بنسب ثابتة، فما المادة الناتجة؟</p>
+            <div class="options">
+                <label><input type="radio" name="q6" value="b"> مركب الماء</label>
+				<label><input type="radio" name="q6" value="a"> عنصر الهيدروجين</label>
+                <label><input type="radio" name="q6" value="c">  مخلوط الأكسجين والهيدروجين</label>
+            </div>
+        </div>
+		
+				<!-- السؤال السابع -->
+        <div class="question" id="q7-container">
+            <p>7. إذا أردت فصل مكونات مخلوط مثل الرمل والماء، أي طريقة يمكن استخدامها؟</p>
+            <div class="options">
+                <label><input type="radio" name="q7" value="b"> التسخين لفصل الذرات</label>
+				<label><input type="radio" name="q7" value="a"> الطرق الفيزيائية</label>
+                <label><input type="radio" name="q7" value="c"> اتحاد العناصر كيميائيًا</label>
+            </div>
+        </div>
+
+				<!-- السؤال الثامن -->
+        <div class="question" id="q8-container">
+            <p>8.  في يوم من الأيام، وجد أحمد وعلي علبة تحتوي على مسحوق أبيض. قال أحمد: "هذا المسحوق هو السكر، وهو مادة نقية تتكون من نوع واحد من الذرات." لكن علي قال: "لا يا أحمد، السكر يتكون من اتحاد عنصرين أو أكثر وله خصائص تختلف عن خصائص العناصر المكونة له."       برأيك، من كان على صواب؟</p>
+            <div class="options">
+                <label><input type="radio" name="q8" value="b"> أحمد</label>
+				<label><input type="radio" name="q8" value="a"> علي</label>
+                <label><input type="radio" name="q8" value="c"> كلاهما على خطأ</label>
+            </div>
+        </div>
+        <button class="submit-btn" onclick="calculateResult()">إرسال الإجابات</button>
+        <div class="result" id="result"></div>
+    </div>
+
+    <script>
+        function calculateResult() {
+            const answers = {
+                q1: 'c',
+                q2: 'b',
+                q3: 'c',
+                q4: 'b',
+                q5: 'c',
+				q6: 'b',
+				q7: 'a',
+				q8: 'a',
+            };
+
+            let score = 0;
+
+            for (let question in answers) {
+                const container = document.getElementById(`${question}-container`);
+                const userAnswer = document.querySelector(`input[name="${question}"]:checked`);
+
+                if (userAnswer) {
+                    if (userAnswer.value === answers[question]) {
+                        score++;
+                        container.classList.add('correct');
+                        container.classList.remove('incorrect');
+                    } else {
+                        container.classList.add('incorrect');
+                        container.classList.remove('correct');
+                    }
+                } else {
+                    container.classList.remove('correct');
+                    container.classList.add('incorrect');
+                }
+            }
+
+            const resultDiv = document.getElementById('result');
+            resultDiv.textContent = `لقد أجبت على : ${score} من 8 أسئلة`;
+        }
+    </script>
+</body>
+</html>
